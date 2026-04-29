@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeautyZap — Automatize seu Salão e Pare de Perder Clientes</title>
+  <meta name="description" content="Automatize agendamentos, reduza faltas e faça clientes voltarem pelo WhatsApp. SaaS para salões, barbearias, clínicas estéticas e profissionais da beleza.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Beauty<span class="gold">Zap</span></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#problemas">Problemas</a>
+        <a href="#solucao">Solução</a>
+        <a href="#planos">Planos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="nav-actions">
+        <a href="app.html#login" class="btn-ghost">Entrar</a>
+        <a href="app.html#register" class="btn-primary btn-sm">Teste Grátis</a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Novo: Automações por WhatsApp com IA
+        </div>
+        <h1 class="hero-title">
+          Seu salão está <span class="gold">perdendo clientes</span> todos os meses sem perceber.
+        </h1>
+        <p class="hero-subtitle">
+          Automatize agendamentos, reduza faltas e faça clientes voltarem no automático pelo WhatsApp. Tudo em uma plataforma simples e poderosa.
+        </p>
+        <div class="hero-buttons">
+          <a href="app.html#register" class="btn-primary btn-lg">
+            <span>Testar 7 dias grátis</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#solucao" class="btn-outline btn-lg">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <span>Ver Demonstração</span>
+          </a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-avatars">
+            <div class="trust-avatar" style="background: linear-gradient(135deg, #c9a84c, #e8d5a0);">M</div>
+            <div class="trust-avatar" style="background: linear-gradient(135deg, #6366f1, #a5b4fc);">C</div>
+            <div class="trust-avatar" style="background: linear-gradient(135deg, #ec4899, #f9a8d4);">F</div>
+            <div class="trust-avatar" style="background: linear-gradient(135deg, #22c55e, #86efac);">R</div>
+          </div>
+          <span>+2.400 profissionais já usam BeautyZap</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="dashboard-preview">
+          <div class="preview-header">
+            <div class="preview-dots">
+              <span style="background:#ef4444"></span>
+              <span style="background:#f59e0b"></span>
+              <span style="background:#22c55e"></span>
+            </div>
+            <span class="preview-title">BeautyZap Dashboard</span>
+          </div>
+          <div class="preview-body">
+            <div class="preview-sidebar">
+              <div class="ps-item active"><span class="ps-icon">📊</span></div>
+              <div class="ps-item"><span class="ps-icon">📅</span></div>
+              <div class="ps-item"><span class="ps-icon">👥</span></div>
+              <div class="ps-item"><span class="ps-icon">⚡</span></div>
+              <div class="ps-item"><span class="ps-icon">📣</span></div>
+            </div>
+            <div class="preview-main">
+              <div class="pm-cards">
+                <div class="pm-card">
+                  <span class="pm-label">Hoje</span>
+                  <span class="pm-value gold">12</span>
+                </div>
+                <div class="pm-card">
+                  <span class="pm-label">Confirmados</span>
+                  <span class="pm-value" style="color:#22c55e">9</span>
+                </div>
+                <div class="pm-card">
+                  <span class="pm-label">Receita</span>
+                  <span class="pm-value gold">R$ 2.4k</span>
+                </div>
+              </div>
+              <div class="pm-chart">
+                <div class="chart-bar" style="height:40%"></div>
+                <div class="chart-bar" style="height:65%"></div>
+                <div class="chart-bar" style="height:50%"></div>
+                <div class="chart-bar active" style="height:85%"></div>
+                <div class="chart-bar" style="height:70%"></div>
+                <div class="chart-bar" style="height:55%"></div>
+                <div class="chart-bar" style="height:75%"></div>
+              </div>
+              <div class="pm-list">
+                <div class="pm-list-item"><span class="dot green"></span>Ana Silva — 09:00</div>
+                <div class="pm-list-item"><span class="dot green"></span>Maria Lima — 10:30</div>
+                <div class="pm-list-item"><span class="dot yellow"></span>Carla Souza — 14:00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROBLEMS ===================== -->
+  <section class="section section-dark" id="problemas">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">O Problema</span>
+        <h2 class="section-title">Você vive <span class="gold">esses problemas</span> todos os dias?</h2>
+        <p class="section-desc">A maioria dos profissionais da beleza perde dinheiro e tempo com tarefas que poderiam ser automáticas.</p>
+      </div>
+      <div class="problems-grid">
+        <div class="problem-card" data-aos>
+          <div class="problem-icon">😰</div>
+          <h3>Clientes esquecem horários</h3>
+          <p>E você fica com buraco na agenda sem saber o que aconteceu.</p>
+        </div>
+        <div class="problem-card" data-aos>
+          <div class="problem-icon">❌</div>
+          <h3>Cancelam em cima da hora</h3>
+          <p>Você perde o horário e não consegue encaixar ninguém no lugar.</p>
+        </div>
+        <div class="problem-card" data-aos>
+          <div class="problem-icon">📱</div>
+          <h3>Responde WhatsApp o dia inteiro</h3>
+          <p>Enquanto poderia estar atendendo, fica presa no celular respondendo mensagens.</p>
+        </div>
+        <div class="problem-card" data-aos>
+          <div class="problem-icon">👻</div>
+          <h3>Cliente vai uma vez e some</h3>
+          <p>Sem follow-up automático, o cliente esquece de você e vai na concorrência.</p>
+        </div>
+        <div class="problem-card" data-aos>
+          <div class="problem-icon">📋</div>
+          <h3>Agenda desorganizada</h3>
+          <p>Papel, caderno, vários apps... nada funciona direito e você perde controle.</p>
+        </div>
+        <div class="problem-card" data-aos>
+          <div class="problem-icon">💸</div>
+          <h3>Falta tempo para vender</h3>
+          <p>Você é boa no que faz, mas não sobra tempo para atrair novos clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOLUTION ===================== -->
+  <section class="section" id="solucao">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">A Solução</span>
+        <h2 class="section-title">BeautyZap resolve <span class="gold">tudo automaticamente</span></h2>
+        <p class="section-desc">Um sistema completo que trabalha para você 24 horas por dia, 7 dias por semana.</p>
+      </div>
+      <div class="solutions-grid">
+        <div class="solution-card" data-aos>
+          <div class="solution-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+          <h3>Confirma agendamentos</h3>
+          <p>Mensagem automática no WhatsApp assim que o cliente agenda. Zero esforço.</p>
+        </div>
+        <div class="solution-card" data-aos>
+          <div class="solution-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </div>
+          <h3>Envia lembretes</h3>
+          <p>24h e 2h antes. O cliente nunca mais esquece do horário.</p>
+        </div>
+        <div class="solution-card" data-aos>
+          <div class="solution-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Recupera clientes sumidos</h3>
+          <p>Mensagem automática para quem não aparece há 30 ou 60 dias.</p>
+        </div>
+        <div class="solution-card" data-aos>
+          <div class="solution-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Pede avaliações</h3>
+          <p>Automaticamente após o atendimento. Mais avaliações = mais credibilidade.</p>
+        </div>
+        <div class="solution-card" data-aos>
+          <div class="solution-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <h3>Organiza sua agenda</h3>
+          <p>Calendário visual, fácil de usar. Veja tudo num só lugar.</p>
+        </div>
+        <div class="solution-card" data-aos>
+          <div class="solution-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3>Campanhas automáticas</h3>
+          <p>Promoções, combos e ofertas direto no WhatsApp dos seus clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BENEFITS ===================== -->
+  <section class="section section-dark" id="beneficios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resultados</span>
+        <h2 class="section-title">O que muda no seu <span class="gold">dia a dia</span></h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card" data-aos>
+          <div class="benefit-number">-60%</div>
+          <h3>Menos faltas</h3>
+          <p>Reduza drasticamente as faltas com lembretes automáticos inteligentes.</p>
+        </div>
+        <div class="benefit-card" data-aos>
+          <div class="benefit-number">+40%</div>
+          <h3>Mais clientes recorrentes</h3>
+          <p>Pós-venda e recuperação fazem clientes voltarem automaticamente.</p>
+        </div>
+        <div class="benefit-card" data-aos>
+          <div class="benefit-number">+3h</div>
+          <h3>Mais tempo livre</h3>
+          <p>Pare de responder WhatsApp o dia inteiro. O sistema faz por você.</p>
+        </div>
+        <div class="benefit-card" data-aos>
+          <div class="benefit-number">100%</div>
+          <h3>Agenda cheia</h3>
+          <p>Com recuperação automática e campanhas, sua agenda fica sempre lotada.</p>
+        </div>
+        <div class="benefit-card" data-aos>
+          <div class="benefit-number">+35%</div>
+          <h3>Mais faturamento</h3>
+          <p>Mais clientes + menos faltas + mais retorno = mais dinheiro no caixa.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PLANS ===================== -->
+  <section class="section" id="planos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Planos</span>
+        <h2 class="section-title">Escolha o plano <span class="gold">ideal para você</span></h2>
+        <p class="section-desc">Comece grátis por 7 dias. Cancele quando quiser. Sem multa, sem contrato.</p>
+      </div>
+      <div class="plans-grid">
+        <!-- BASIC -->
+        <div class="plan-card" data-aos>
+          <div class="plan-header">
+            <h3 class="plan-name">Basic</h3>
+            <p class="plan-audience">Ideal para autônomos</p>
+          </div>
+          <div class="plan-price">
+            <span class="price-currency">R$</span>
+            <span class="price-value">39</span>
+            <span class="price-cents">,90</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Agenda online</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Até 100 clientes</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Confirmação automática</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Lembretes por WhatsApp</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Cadastro de clientes</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Relatórios simples</li>
+          </ul>
+          <a href="app.html#register" class="btn-outline btn-block">Assinar Basic</a>
+        </div>
+
+        <!-- PRO -->
+        <div class="plan-card plan-popular" data-aos>
+          <div class="popular-badge">Mais Vendido 🔥</div>
+          <div class="plan-header">
+            <h3 class="plan-name">Pro</h3>
+            <p class="plan-audience">Para quem quer crescer</p>
+          </div>
+          <div class="plan-price">
+            <span class="price-currency">R$</span>
+            <span class="price-value">74</span>
+            <span class="price-cents">,90</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Tudo do Basic +</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Clientes ilimitados</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Recuperação clientes sumidos</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Pós-venda automático</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Pedido de avaliação</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Campanhas prontas</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Dashboard completo</li>
+          </ul>
+          <a href="app.html#register" class="btn-primary btn-block">Assinar Pro</a>
+        </div>
+
+        <!-- ELITE -->
+        <div class="plan-card" data-aos>
+          <div class="plan-header">
+            <h3 class="plan-name">Elite</h3>
+            <p class="plan-audience">Para clínicas e equipes</p>
+          </div>
+          <div class="plan-price">
+            <span class="price-currency">R$</span>
+            <span class="price-value">157</span>
+            <span class="price-cents">,90</span>
+            <span class="price-period">/mês</span>
+          </div>
+          <ul class="plan-features">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Tudo do Pro +</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Multi atendentes</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Multi unidades</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>IA para mensagens</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Segmentação avançada</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Campanhas ilimitadas</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Suporte prioritário</li>
+          </ul>
+          <a href="app.html#register" class="btn-outline btn-block">Assinar Elite</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section section-dark" id="depoimentos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Depoimentos</span>
+        <h2 class="section-title">Quem usa, <span class="gold">recomenda</span></h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Reduzi faltas em 60% no primeiro mês. Os clientes respondem a confirmação no WhatsApp e aparecem. Minha agenda nunca esteve tão cheia."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #ec4899, #f9a8d4);">M</div>
+            <div>
+              <strong>Mariana Oliveira</strong>
+              <span>Clínica Estética — SP</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Hoje meu WhatsApp trabalha sozinho. Não preciso mais ficar respondendo mensagem o dia inteiro. O BeautyZap confirma, lembra e até recupera cliente que sumiu."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #6366f1, #a5b4fc);">C</div>
+            <div>
+              <strong>Carlos Eduardo</strong>
+              <span>Barbearia Premium — RJ</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card" data-aos>
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Os clientes voltaram a agendar depois que ativei a recuperação automática. Em 2 meses, 23 clientes que tinham sumido voltaram. Incrível!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar" style="background: linear-gradient(135deg, #c9a84c, #e8d5a0);">F</div>
+            <div>
+              <strong>Fernanda Costa</strong>
+              <span>Nail Designer — MG</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dúvidas</span>
+        <h2 class="section-title">Perguntas <span class="gold">frequentes</span></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item" data-aos>
+          <button class="faq-question">
+            <span>Preciso instalar alguma coisa?</span>
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Não! O BeautyZap funciona 100% online pelo navegador. Basta acessar de qualquer dispositivo — computador, celular ou tablet. Sem downloads, sem instalação.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos>
+          <button class="faq-question">
+            <span>Funciona no celular?</span>
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sim! O sistema é 100% responsivo. Funciona perfeitamente no celular, tablet e computador. Gerencie sua agenda de qualquer lugar.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos>
+          <button class="faq-question">
+            <span>Tem teste grátis?</span>
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sim! Você pode testar o BeautyZap gratuitamente por 7 dias com acesso a todas as funcionalidades do plano Pro. Sem cartão de crédito, sem compromisso.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos>
+          <button class="faq-question">
+            <span>Posso cancelar quando quiser?</span>
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Sim! Não existe fidelidade ou multa. Cancele quando quiser diretamente pelo painel, sem burocracia. Seus dados ficam salvos por 30 dias caso queira voltar.</p>
+          </div>
+        </div>
+        <div class="faq-item" data-aos>
+          <button class="faq-question">
+            <span>Funciona para autônomos?</span>
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            <p>Perfeitamente! O plano Basic foi criado especialmente para profissionais autônomos. Simples, acessível e com tudo que você precisa para organizar seus atendimentos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FINAL CTA ===================== -->
+  <section class="section section-cta" id="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Pare de perder clientes <span class="gold">todos os dias.</span></h2>
+        <p class="cta-desc">Comece agora com 7 dias grátis e veja a diferença no seu negócio.</p>
+        <a href="app.html#register" class="btn-primary btn-xl">
+          <span>Começar Teste Grátis</span>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+        <p class="cta-note">Sem cartão de crédito • Cancele quando quiser</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <span class="logo-icon">⚡</span>
+            <span class="logo-text">Beauty<span class="gold">Zap</span></span>
+          </a>
+          <p>Automatize seu salão e pare de perder clientes. A plataforma #1 para profissionais da beleza.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Produto</h4>
+          <a href="#solucao">Funcionalidades</a>
+          <a href="#planos">Planos</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-links">
+          <h4>Para quem</h4>
+          <a href="#">Salões de Beleza</a>
+          <a href="#">Barbearias</a>
+          <a href="#">Clínicas Estéticas</a>
+          <a href="#">Autônomos</a>
+        </div>
+        <div class="footer-links">
+          <h4>Suporte</h4>
+          <a href="#">Central de Ajuda</a>
+          <a href="#">WhatsApp</a>
+          <a href="#">contato@beautyzap.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 BeautyZap. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/landing.js"></script>
+</body>
+</html>
